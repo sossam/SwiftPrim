@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4C62C00325CA96A700E56DAF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C62C00225CA96A700E56DAF /* main.swift */; };
+		4C62C00B25CA97E000E56DAF /* MinHeap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C62C00A25CA97E000E56DAF /* MinHeap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		4C62BFFF25CA96A700E56DAF /* SwiftPrim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftPrim; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C62C00225CA96A700E56DAF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4C62C00A25CA97E000E56DAF /* MinHeap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinHeap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		4C62C00125CA96A700E56DAF /* SwiftPrim */ = {
 			isa = PBXGroup;
 			children = (
+				4C62C00A25CA97E000E56DAF /* MinHeap.swift */,
 				4C62C00225CA96A700E56DAF /* main.swift */,
 			);
 			path = SwiftPrim;
@@ -119,6 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C62C00B25CA97E000E56DAF /* MinHeap.swift in Sources */,
 				4C62C00325CA96A700E56DAF /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
